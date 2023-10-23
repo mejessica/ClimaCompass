@@ -1,0 +1,12 @@
+<%- include('partials/head') %>
+
+<div class="cidade">
+    <h2>Busque a cidade:</h2>
+    <form class="center" action="/busca" method="GET">
+        <input type="text" name="cidadeName"> <button>Buscar</button>
+        <br><br>
+        <a href="/resultadoHistorico"><p id="voltar">Acessar histórico</p></a>
+    </form>
+</div>
+
+<%- include('partials/footer') %>

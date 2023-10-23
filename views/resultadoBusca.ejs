@@ -1,0 +1,20 @@
+<%- include('partials/head') %>
+
+<% if(resposta) { %>
+        <div class="cidade">
+            <h2 name="cidadeName">Cidade <%= resposta.results.city_name%></h2>
+            <div>
+                <p><strong>ºC:</strong> <%= resposta.results.temp %></p>
+                <p><strong> <%= resposta.results.description %></strong></p>
+                <img src="https://assets.hgbrasil.com/weather/icons/conditions/<%=resposta.results.condition_slug%>.svg" class="imagemTempo" alt="imagem do tempo">
+                <p><strong>Máxima:</strong> <%=resposta.results.forecast[0].max%></p>
+                <p><strong>Mínima:</strong> <%=resposta.results.forecast[0].min%></p>
+                
+            </div>
+           
+        </div>
+<% } else { %>
+    <h2>Nenhuma cidade encontrada</h2>
+<% } %>
+<a href="/"><p id="voltar">Voltar</p></a>
+<%- include('partials/footer') %>

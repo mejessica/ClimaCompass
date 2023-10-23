@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../imgs/pexels-james-wheeler-1619317.jpg) no-repeat;
+    background-size: cover;
+}
+
+h1,
+h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+h1,
+h2 {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 70px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #fff;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.busca {
+    margin: 20px;
+}
+
+.center input {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    border: #fff;
+}
+
+.center button {
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-size: 1.2rem;
+}
+
+#voltar {
+    text-align: center;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    width: auto;
+    padding: 1rem;
+    background-color: #fff;
+
+}
+
+.cidade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.cidade div {
+    border: solid 1px #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.cidade li{
+    list-style: none;
+    margin-bottom: 5px;
+}

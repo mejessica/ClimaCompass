@@ -1,0 +1,17 @@
+<%- include('partials/head') %>
+
+<body>
+    <h2>Cidades Pesquisadas</h2>
+    <ul class="cidade" >
+        <div>
+            <% for (cidadeName of cidade){%>
+                <li><a href="/busca?cidadeName=<%=cidadeName.cidade%>"><%=cidadeName.cidade%></a></li>
+                 <% } %>
+        </div>
+    </ul>
+    <a href="/">
+        <p id="voltar">Voltar</p>
+    </a>
+</body>
+
+<%- include('partials/footer') %>
