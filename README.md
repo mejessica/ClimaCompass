@@ -2,7 +2,7 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
->Projeto feito para treinar o aprendizado de rotas RESTful e utiliza do banco mongodb para guardar as cidades pesquisadas e trazê-las posteriormente, além de também consumir uma API com a previsão do tempo.
+>Projeto feito para treinar o aprendizado de rotas Express RESTful e utiliza do banco mongodb para guardar as cidades pesquisadas e trazê-las posteriormente, além de também consumir uma API com a previsão do tempo.
 
 ## ✅ Tecnologias utilizadas 
 - EJS
