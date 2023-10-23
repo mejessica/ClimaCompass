@@ -53,9 +53,8 @@ Agora basta abrir seu navegador preferido e digitar: http://localhost:3000 para 
 >Caso queira apenas olhar o código pode ignorar a etapa "abrir e rodar projeto"
 
 >Mas caso você queira ver apenas o resultado final, segue abaixo:
-## Final 
 
-// criando o deploy do banco ainda
+ _criando o deploy do banco_
 
-> Final
+> ## Final
 ![Busca de cidade (2)](https://github.com/mejessica/ClimaCompass/assets/82670472/0818ed8f-22a7-4113-b41b-0127743f5b83)
