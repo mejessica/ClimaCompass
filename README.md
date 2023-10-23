@@ -1,4 +1,4 @@
-# Projeto formulário com rotasRESTful e Mysql
+# Projeto com API de previsão do tempo, Node.js, Mongodb e EJS
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
@@ -57,3 +57,5 @@ Agora basta abrir seu navegador preferido e digitar: http://localhost:3000 para 
 
 // criando o deploy do banco ainda
 
+> Final
+![Busca de cidade (2)](https://github.com/mejessica/ClimaCompass/assets/82670472/0818ed8f-22a7-4113-b41b-0127743f5b83)
