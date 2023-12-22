@@ -1,8 +1,8 @@
-# Projeto formulário com rotasRESTful e Mysql
+# Projeto com API de previsão do tempo, Node.js, Mongodb e EJS
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
->Projeto feito para treinar o aprendizado de rotas RESTful e utiliza do banco mongodb para guardar as cidades pesquisadas e trazê-las posteriormente, além de também consumir uma API com a previsão do tempo.
+>Projeto feito para treinar o aprendizado de rotas Express RESTful e utiliza do banco mongodb para guardar as cidades pesquisadas e trazê-las posteriormente, além de também consumir uma API com a previsão do tempo.
 
 ## ✅ Tecnologias utilizadas 
 - EJS
@@ -53,7 +53,8 @@ Agora basta abrir seu navegador preferido e digitar: http://localhost:3000 para 
 >Caso queira apenas olhar o código pode ignorar a etapa "abrir e rodar projeto"
 
 >Mas caso você queira ver apenas o resultado final, segue abaixo:
-## Final 
 
-// criando o deploy do banco ainda
+ _criando o deploy do banco_
 
+> ## Final
+![Busca de cidade (2)](https://github.com/mejessica/ClimaCompass/assets/82670472/0818ed8f-22a7-4113-b41b-0127743f5b83)
