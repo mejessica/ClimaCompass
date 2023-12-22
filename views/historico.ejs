@@ -3,9 +3,9 @@
 <body>
     <h2>Cidades Pesquisadas</h2>
     <ul class="cidade" >
-        <div>
+        <div class="center">
             <% for (cidadeName of cidade){%>
-                <li><a href="/busca?cidadeName=<%=cidadeName.cidade%>"><%=cidadeName.cidade%></a></li>
+                <li><a class="historico" href="/busca?cidadeName=<%=cidadeName.cidade%>"><%=cidadeName.cidade%></a></li>
                  <% } %>
         </div>
     </ul>

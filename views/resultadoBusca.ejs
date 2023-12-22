@@ -2,8 +2,9 @@
 
 <% if(resposta) { %>
         <div class="cidade">
-            <h2 name="cidadeName">Cidade <%= resposta.results.city_name%></h2>
-            <div>
+           
+            <div class="center">
+                <h1 name="cidadeName">Cidade <%= resposta.results.city_name%></h1>
                 <p><strong>ºC:</strong> <%= resposta.results.temp %></p>
                 <p><strong> <%= resposta.results.description %></strong></p>
                 <img src="https://assets.hgbrasil.com/weather/icons/conditions/<%=resposta.results.condition_slug%>.svg" class="imagemTempo" alt="imagem do tempo">

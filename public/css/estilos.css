@@ -1,13 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: url(../imgs/pexels-james-wheeler-1619317.jpg) no-repeat;
+    background: url(../imgs/pexels-pixabay-531767.jpg) no-repeat;
     background-size: cover;
-}
-
-h1,
-h2 {
-    margin: 20px;
-    text-align: center;
 }
 
 h1,
@@ -15,7 +9,9 @@ h2 {
     border: 2px solid #fff;
     border-radius: 20px;
     margin-bottom: 70px;
-    width: 750px;
+    width: 500px;
+    margin: 10px ;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -32,22 +28,36 @@ footer {
     margin: 20px;
 }
 
+.center{
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 5rem;
+}
+
 .center input {
     width: 250px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px 5px;
+    font-size: 20px;
     border: #fff;
 }
 
 .center button {
     color: #fff;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
     color: #000;
+    font-size: 20px;
+    cursor: pointer;
 }
+
 
 a {
     text-decoration: none;
@@ -56,8 +66,17 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 p {
     font-size: 1.2rem;
+}
+
+.historico{
+    font-size: 20px;
+}
+.historico:hover{
+    color: chocolate;
+    transition: 0.2s;
 }
 
 #voltar {
@@ -71,6 +90,8 @@ p {
 }
 
 .cidade {
+    width: auto;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,11 +103,12 @@ p {
 .cidade div {
     border: solid 1px #fff;
     border-radius: 10px;
-    padding: 2rem;
+    padding: 3rem;
     background-color: #fff;
 }
 
 .cidade li{
     list-style: none;
     margin-bottom: 5px;
+    font-size: 20px;
 }
