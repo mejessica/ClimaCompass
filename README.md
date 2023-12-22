@@ -57,4 +57,5 @@ Agora basta abrir seu navegador preferido e digitar: http://localhost:3000 para 
  _criando o deploy do banco_
 
 > ## Final
-![Busca de cidade (2)](https://github.com/mejessica/ClimaCompass/assets/82670472/0818ed8f-22a7-4113-b41b-0127743f5b83)
+![Busca de cidade (3)](https://github.com/mejessica/ClimaCompass/assets/82670472/75c8b59b-6f74-485c-a161-8a36a145893c)
+
